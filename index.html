@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+           <div class="logo"><a href="#">Green Shop</a>
+            </div>
+           
+           <div class="search">
+                 <label>Search Item:</label>
+                 <input type="text" id="mySearch" placeholder="Type ..." style="margin-bottom: 5px;">
+                 <button onclick="document.getElementById('mySearch').value = ''" style= "background-color: lightblue;border:lightblue;
+                 cursor:pointer;padding-top: 5px;">
+                    <i class="fa fa-search" style="font-size: 20px;margin-top: 5px;"></i></button>
+
+           </div>
+           <div>
+                <p>Add to cart: <button class="btn"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+               
+            </div>
+            <a href="#" class="toggle-btw">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-menu">
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#grocery_list">Grocery List</a></li>
+                <li><a href="#offer">Today's Offer</a></li>
+                <li><a href="#contact">Contact</a></li>
+               </ul>
+            </div>
+        </div>
+        
+        
+    </div>
+    <!--Home-->
+
+    <div class="home" id="home">
+        <div class="content">       
+             <h1>Welcome to Green Shop</h1>
+        <h2>Welcome to Green Shop, nice to have you here!</h2>
+        <p>Green Shop, the contemporary supermarket for all your groceries for today and tomorrow. 
+            Just around the corner from you!</p>
+            <p>With us you benefit from competitive offers every day, view them in the  Green Shop 
+                folder . We also have  a lot of Low Stayers. Daily groceries, for a permanently low 
+                price. And of course products from our Green Shop own brand, with a clear origin and great
+                 taste. Sometimes organic, Fairtrade or seasonal fruit and vegetables and where 
+                 possible from Dutch soil. 
+                But above all: without paying the main price for it.</p>
+                <p>In addition to daily fresh products, Green Shop you will also find everything you 
+                need for breakfast, lunch, 
+                dinner or something nice and easy in between.</p>
+                <p>Will we see you again today or tomorrow?</p>
+                <p>Your Green Shop team</p>
+     </div>
+    </div>
+    
+     <!--Grocery List-->
+
+     <div class="grocery_list" id="grocery_list">
+        
+        <div class="grocery_content">
+            <a href="#"><img src="Red capsicum.jpg" alt="Red Capsicum"></a>
+            <p>Red capsicum</p>
+            <p><i class="fa fa-euro"></i>1.00</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+            
+        </div>
+        <div class="grocery_content">
+            <a href="#"><img src="green_capsicum.jpg" alt="Green Capsicum"></a>
+            <p>Green capsicum</p> 
+            <p><i class="fa fa-euro"></i>1.00</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <a href="#"><img src="brinjal.jpg" alt="Brinjal"></a>
+            <p>Brinjal</p>
+            <p><i class="fa fa-euro"></i>1.29</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <a href="#"><img src="strawberry.jpg" alt="strawberry"></a>
+            <p>Strawberry</p>
+            <p><i class="fa fa-euro"></i>3.50 per 500gm.</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <a href="#"><img src="apple.png" alt="Apple"></a>
+            <p>Apple</p>
+            <p><i class="fa fa-euro"></i>3.00 per kg.</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <a href="#"><img src="grapes.jpg" alt="Grapes"></a>
+            <p>Grapes</p>
+            <p><i class="fa fa-euro"></i>2.50 for 500gm.</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <a href="#"><img src="tomato.jpg" alt="Tomato"></a>
+            <p>Tomato</p>
+            <p><i class="fa fa-euro"></i>2.00 for 500 gm.</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <a href="#"><img src="banana-1.jpg" alt="Banana"></a>
+            <p>Banana</p>
+            <p><i class="fa fa-euro"></i>2.00 per pack</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+
+     </div>
+<!--Today's offer-->
+<h6 id="offer" style="text-align: center; font-size: 30px; color:blueviolet;padding: 20px;">50% off on below products.</h6>
+    <div class="grocery_list" style="background-color: bisque;">
+        
+        <div class="grocery_content">
+            <p>Offer</p>
+            <a href="#"><img src="oranges.jpg" alt="Banana"></a>
+            <p>Banana</p>
+            <p><i class="fa fa-euro"></i>2.00 per pack</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <p>Offer</p>
+            <a href="#"><img src="tomato.jpg" alt="Country Cucumber"></a>
+            <p>Country Tomato</p>
+            
+            <p><i class="fa fa-euro"></i>2.00 per kg.</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <p>Offer</p>
+            <a href="#"><img src="spinach.jpg" alt="Spinach"></a>
+            <p>Spinach</p>
+            
+            <p><i class="fa fa-euro"></i>2.00 for 500 gm.</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+        <div class="grocery_content">
+            <p>Offer</p>
+            <a href="#"><img src="carrot.jpg" alt="Carrot"></a>
+            <p>Carrot</p>
+            
+            <p><i class="fa fa-euro"></i>1.00 for 250 gm.</p>
+            <button class="add_to_cart"><i class="fa fa-shopping-cart" class="shop" style="font-size: 24px;"></i></button></p>
+        </div>
+    </div>  
+    <!--Contact-->
+    <div class="contact_container" id="contact">
+        <div class="contact_form" id="form1">
+            <h1>Contact Us</h1>
+            <div class="data">
+                <label>Full Name:</label>
+                <input type="text" name="" value="" placeholder="Enter your Name" id="input_value">
+            </div>
+            <div class="data">
+                <label>Email:</label>
+                <input type="email" name="" value="" placeholder="Enter your Email" id="input_value">
+            </div>
+            <div class="data">
+                <label>Phone Number:</label>
+                <input type="text" name="" value="" placeholder="Enter your Phone number" id="input_value">
+            </div>
+            <div class="data">
+                <label>Message:</label>
+                <textarea id="input_value"></textarea>
+            </div>
+            <button class="btn1">Send</button>
+        </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <p>Visit our Social Media Page: <a href="#"><img src="facebook.png" alt=""></a></p>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        const togglebtw=document.getElementsByClassName("toggle-btw")[0];
+        const navmenu=document.getElementsByClassName("nav-menu")[0];
+        togglebtw.addEventListener("click",()=>{
+            navmenu.classList.toggle("active")
+        })
+           let btnClear=document.querySelector('.btn1');
+           let inputs=document.querySelectorAll('input');
+           let text_area=document.querySelector('textarea');
+           btnClear.addEventListener('click', () =>{
+                inputs.forEach(input=> input.value='',);
+                text_area.value='';
+           })
+
+           
+        
+    
+        
+    </script>
+</body> 
+</html>
